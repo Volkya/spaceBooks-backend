@@ -1,0 +1,34 @@
+# Build output
+build/
+target/
+
+# Dependency caches
+.gradle/
+/localRepository
+
+# IDE-specific files
+.idea/
+*.iml
+*.iws
+.DS_Store
+
+# Log files
+logs/
+
+# Test results
+test-results/
+
+# Compiled Kotlin bytecode
+*.class
+
+# Kotlin metadata
+*.kotlin_metadata
+
+# Specific to Spring Boot
+*.jar
+*.war
+
+# Other common patterns
+*.log
+*.swp
+*~
