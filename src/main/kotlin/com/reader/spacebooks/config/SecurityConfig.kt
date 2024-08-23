@@ -17,6 +17,8 @@ class SecurityConfig {
             .authorizeHttpRequests  { authz ->
                 authz
                     .requestMatchers("/api/health").permitAll()
+                    .requestMatchers("/encryption/rsa/encrypt").permitAll()
+                    .requestMatchers("/encryption/rsa/decrypt").permitAll()
                     .anyRequest().authenticated()
             }
             .csrf { csrf -> csrf.disable() }

@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: "Spacebooks"
+
+server:
+  port: 8080
+
+jwt:
+  secret: "elSuperSecret"
+
+encrypt:
+  aes256:
+    key: "asdahsffsdfdsaf"
+  rsa:
+    publicKey: |
+      -----BEGIN PUBLIC KEY-----
+      MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq0ZqYDgeY+X3Lit1j2WI
+      X1fOUw2cdURxBIvo0raC5Pk3cmVEBawa+Fnob+00wRNLen79Be32IVhA6a1TaBER
+      zVvDQemOuBnEq1QG2XJh5e5NdbJmnVMo8V/KJblkH4I9ev6L79b3hKIM0zbYRDOA
+      66nMrnsAm5fj3Z8mYxwoBQJItUljIOn7By/R//URR4RVlpAuZV6UdKk358qwtLJD
+      fgC5dbCtr5zr0Kv01uBU/Co4TS8KVcx0NLee7xhE5zJm2v+40xxUNgl3relGE4gl
+      kwnKREO2gPNx+XxFeIeBZ1mgVu0z3ifR7WlPdORrMestvp9WuGGD/T3oYSSgeT6F
+      VwIDAQAB
+      -----END PUBLIC KEY-----
+    privateKey: |
+      -----BEGIN PRIVATE KEY-----
+      MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCrRmpgOB5j5fcu
+      K3WPZYhfV85TDZx1RHEEi+jStoLk+TdyZUQFrBr4Wehv7TTBE0t6fv0F7fYhWEDp
+      rVNoERHNW8NB6Y64GcSrVAbZcmHl7k11smadUyjxX8oluWQfgj16/ovv1veEogzT
+      NthEM4DrqcyuewCbl+PdnyZjHCgFAki1SWMg6fsHL9H/9RFHhFWWkC5lXpR0qTfn
+      yrC0skN+ALl1sK2vnOvQq/TW4FT8KjhNLwpVzHQ0t57vGETnMmba/7jTHFQ2CXet
+      6UYTiCWTCcpEQ7aA83H5fEV4h4FnWaBW7TPeJ9HtaU905Gsx6y2+n1a4YYP9Pehh
+      JKB5PoVXAgMBAAECggEACOu+f6t8nbxtHvkBgwoJS9oBc576XrtFXbTB2DPMZou6
+      gRlYLSl1MClSq33B6SqNnGA/4o6t6rezjdhKx1lYQYd9iJHXLqyc60WRo8LK6ZR7
+      cV1s7dXWhJf2KffZiLCabi0S8deTBdQA8gFhy0+Zb+zkrdPXSMNlCXaQI8pkJTqO
+      stiLDA4fpwr4ZS9OzjkDx2E022ejC4tmTB1JmzLB0816Pj9IjEr1WZ2pICEZTkRN
+      /jB2bKEIUQc2Ns6VpenfRF0Mp6Idh5f4E4f7gRF292lMIhonFKfYNC3X1lgu8Z7q
+      AGvTMJqiXX88Q8abJJ3ONwkco7TMUzDpKwUqg1ZwHQKBgQDw5lhKTAFogZvztXql
+      BJNHvgwT18OZVe64Zha9g9MKkYpEzVnGy3Ha5WVfJ0ejWN/SOYjBRuMxnAewiP+1
+      U2sQ+1FikhLZDcmpNeT0OCYAyFCMz+dDZq11XDLBNftUeoDHGBd5kbV8RrMTWzP+
+      C8q+H8pNJ0dTU9DVWhdRujAnqwKBgQC2AtI033hcvKc41l5f/07zCuCOc56fPGTK
+      A7PlWurrfEhnjcnsldWFpTDa7F06B11tpt7mKzAiwYVHFKClI4uMwN8LsalJO0LL
+      K0DznsnmB30DwJxoZHzlBrp/VWhX1nioGQMhMuxuUK76XX7cIHfk9tDcqFsY2e5X
+      UR+RFI49BQKBgQCpGrl9pi8S4nDMOmfWsQiGQxWNVFf9KoKCNT/fV0ttTs9GDvTn
+      hObupztq+VLjir7LfxHNw2o25/XJ6dG+wskUyabO0AWlEnWub6PCACxFPli1EDii
+      atB24vrKAI/mNHxzxiiscSl6DNMmUk6EFlkC76P+VwVNrDebnTtjZpTpMwKBgQCf
+      hWN04bNdHB83qnJ2ko5AZ3UehOkuSMFRaONfjkq872WKFPQ3/a5xfrGN/oFK3a+d
+      7hYIByweGhxUixitA7VIPLaASkrDm0PUS2mW28G6cS+5fTPYLtJj7HzCIznbWmbP
+      dXSPwVEE8oQZfJ42EeLi8wtlicylwEOrlbcj8a8kfQKBgEttXXdYxI6T8hCRfoJE
+      TGP1ROrRW/kfUY1i5iJ7ipAAj7CQHtKJJuZ7488pgAcxHXIAyoxoMfnzvX2O+MT/
+      ZahnMBj2CkaXMgToskTQRMnGXM7bNTi0TN41cJ9z1AzjGGVwsmWHy6gDdlbiJnoI
+      tkvkX3KAgGivpi9ZAan+5NOp
+      -----END PRIVATE KEY-----
